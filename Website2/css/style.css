@@ -1,0 +1,159 @@
+/*BODY*/
+body{
+	
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+	padding-right: 0;
+	padding-left: 0;
+}
+.navbar-wrapper .navbar {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+	width: auto;
+}
+.navbar-inverse {
+    background-color: rgba(0,0, 0, 0.5);
+    border-color: none;
+	margin: 0px;
+	padding: 10px;
+	font-size: large;
+	font-family: ‘Arvo’, courier, serif;  
+}
+.navbar-inverse .navbar-nav>li>a {
+	color:rgba(255,255, 255, 1)
+	
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: rgba(255, 179, 102, 1);
+}
+img#logo{
+	height: 100%;
+}
+a.navbar-brand{
+	padding:0;
+}
+
+/*------ JUMBOTRON ==================*/
+
+img.img-fluid {
+	position:relative;
+    width: 100%;
+}
+#img{
+	padding:0px;
+	margin:0px;
+}
+h1{ 
+   position: absolute; 
+   top: 325px; 
+   left: 0; 
+   width: 100%; 
+}
+h1 span{ 
+    color: white;
+    font: 24px/45px ‘Arvo’, courier, serif; 
+    letter-spacing: 5px;
+    background: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+}
+#insta{
+	color: #FFB366;
+	background: none;
+	font-weight: bold;
+}
+
+/*------- Information ==========*/
+
+.col-md-2{
+	top: -39px;
+	margin-left: 44px;
+	margin-right:44px;
+    background: rgba(255, 255, 255, 1);
+}
+#wrap{
+	background-color: rgba(0,0,0,.1);
+}
+
+
+/*--------- Default CSS -------------*/
+
+.ad {
+    position: absolute;
+    bottom: 70px;
+    right: 48px;
+    z-index: 992;
+    background-color:#f3f3f3;
+    position: fixed;
+    width: 155px;
+    padding:1px;
+}
+
+.ad-btn-hide {
+    position: absolute;
+    top: -10px;
+    left: -12px;
+    background: #fefefe;
+    background: rgba(240,240,240,0.9);
+    border: 0;
+    border-radius: 26px;
+    cursor: pointer;
+    padding: 2px;
+    height: 25px;
+    width: 25px;
+    font-size: 14px;
+    vertical-align:top;
+    outline: 0;
+}
+.carbon-img {
+    float:left;
+    padding: 10px;
+}
+
+.carbon-text {
+    color: #888;
+    display: inline-block;
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: 400;
+	height: 60px;
+    margin-left: 9px;
+    width: 142px;
+    padding-top: 10px;
+}
+
+.carbon-text:hover {
+    color: #666;
+}
+
+.carbon-poweredby {
+    color: #6A6A6A;
+    float: left;
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-top: 13px;
+    text-align: center;
+}
+.container {
+
+}
+

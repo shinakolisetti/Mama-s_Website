@@ -1,0 +1,280 @@
+/*BODY*/
+body{
+ background-color: #f8f8f8;	
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+	padding-right: 0;
+	padding-left: 0;
+}
+.navbar-wrapper .navbar {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+	width: auto;
+}
+.navbar-default {
+
+    border-color: #f8f8f8;
+	margin: 0px;
+	padding: 10px;
+	font-size: small;
+	/*font-family: ‘Arvo’, courier, serif;*/  
+    font-family: 'Oxygen', sans-serif;
+}
+.navbar-default .navbar-nav>li>a {
+	color:rgba(0,0, 0, 1)
+	
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: rgba(255, 204, 0, 1);
+}
+.navbar-brand{
+    height:86px;
+    float: none;
+    display: inline-block;
+    margin-right: 0 !important;
+    padding:0px;
+}
+img#logo{
+	height: 100%;
+}
+#banner{
+	padding:0;
+    text-align: center;
+   display: block;
+}
+div#navbar{
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+#text{
+    margin-bottom: 24px; 
+}
+.navbar-nav>li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*------ CAMERA ==================*/
+
+.camera_warp{
+    display:block;
+    margin-bottom: 0;
+    left:0;
+    top:0;
+    width: 100%;
+    background: #fff;
+    z-index:0;
+}
+.camera_hover{
+    min-height: 60px;
+    position: relative;
+    width: 100%;
+}
+.paused{
+    display:none;
+}
+.container.camera{
+    margin-top: 13px;
+
+}
+.jumbotron{
+    margin-bottom: 0;
+}
+div#wrap{
+    background-color: darkgray;
+}
+.container.camera{
+    background-color: rgba(255, 204, 0, 1);
+}
+
+ 
+/*------- CONTENT ==========*/
+h1{
+    font-family: serif;
+    font-variant: small-caps;
+}
+h2{
+    font-size: 45px;
+    letter-spacing: -2.25px
+}
+h3{
+    margin-top: 24px;
+    font-size: 23px;
+    line-height: 1.56521739;
+    text-transform: uppercase;
+    letter-spacing: -0.7px;
+    font-family: -webkit-pictograph;
+    font-weight: bold;
+}
+h4{
+    font-size: 14px;
+    line-height: 1.64285714;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    color: #7ac1e6;
+}
+h2, h4{
+    margin-top: 19px;
+}
+.content{
+    padding-right: 5%;
+}
+.list_services{
+    display:block;
+}
+* + .list_services{
+    margin-top: 27px;
+}
+.list_services li{
+    position: relative;
+    padding-left: 14px;
+}
+.list_services li + li {
+    margin-top: 6px;
+}
+ul li a{
+    padding:0;
+    list-style: none;
+    margin:0;
+}
+a{
+    font:inherit;
+    color:inherit;
+    text-decoration: none;
+    transition: 0.2s;
+}
+blockquote.box{
+    margin:0;
+    font-style: normal;
+    border-color: #7ac1e6; 
+}
+blockquote.box p{
+    background: #f3f3f3;
+    padding: 41px 28px 41px 38px;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius:10px;
+}
+blockquote.box q{
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: -0.9px;
+    color: #767676;
+    word-wrap: break-word;
+}
+blockquote.box *+ h4{
+    margin-top: 18px;
+}
+blockquote.box h4 cite{
+    font-style: normal;
+    color:#979797;
+}
+blockquote.box cite{
+    display: inline-block;
+}
+p{
+    line-height: 1.7;
+    margin:0;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+
+/*--------- Default CSS -------------*/
+
+.ad {
+    position: absolute;
+    bottom: 70px;
+    right: 48px;
+    z-index: 992;
+    background-color:#f3f3f3;
+    position: fixed;
+    width: 155px;
+    padding:1px;
+}
+
+.ad-btn-hide {
+    position: absolute;
+    top: -10px;
+    left: -12px;
+    background: #fefefe;
+    background: rgba(240,240,240,0.9);
+    border: 0;
+    border-radius: 26px;
+    cursor: pointer;
+    padding: 2px;
+    height: 25px;
+    width: 25px;
+    font-size: 14px;
+    vertical-align:top;
+    outline: 0;
+}
+.carbon-img {
+    float:left;
+    padding: 10px;
+}
+
+.carbon-text {
+    color: #888;
+    display: inline-block;
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: 400;
+	height: 60px;
+    margin-left: 9px;
+    width: 142px;
+    padding-top: 10px;
+}
+
+.carbon-text:hover {
+    color: #666;
+}
+
+.carbon-poweredby {
+    color: #6A6A6A;
+    float: left;
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-top: 13px;
+    text-align: center;
+}
+.container {
+
+}
+
